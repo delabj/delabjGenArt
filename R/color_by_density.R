@@ -3,6 +3,7 @@
 #' @description  I think this code is adapted from a blog post by
 #' Will R Chase. This takes an image and maps new colors by density
 #' then saves the image with the new name.
+#' This uses EBImage from Bioconductor.
 #'
 #' @param new_name the new name for the file
 #' @param image_path the path to the source image
