@@ -1,8 +1,11 @@
 
 # delabjGenArt
 
-<!-- badges: start -->
-<!-- badges: end -->
+  <!-- badges: start -->
+  [![R-CMD-check](https://github.com/delabj/delabjGenArt/workflows/R-CMD-check/badge.svg)](https://github.com/delabj/delabjGenArt/actions)
+  <!-- badges: end -->
+  
+
 
 This is a package for my commonly used and utility functions for creating generative art work. This is a package created for personal use, but I'm making it public so others can use it if desired. 
 
