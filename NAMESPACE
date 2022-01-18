@@ -3,6 +3,8 @@
 export("%>%")
 export(color_by_density)
 export(get_random_pal)
+export(make_line)
+export(ngon_edges)
 export(paint_palettes)
 export(rotate_points)
 export(theme_canvas)

@@ -1,4 +1,7 @@
-#' Draw a ngon's edges with points
+#' Draw a regular ngon's edges with points
+#'
+#' @description A regular n-gon is a polygon with equal sided edges and
+#' all angles of corners are equal.
 #'
 #' @param points number of particles to use
 #' @param n_edges How many edges does the shape have
