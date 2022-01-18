@@ -20,7 +20,7 @@ ngon_edges <- function(
   corner_pos <- dplyr::tibble(
     angle = seq(0, 2 * pi, length.out = n_edges+1),
     x = r * cos(angle) + cx, y = r * sin(angle) + cy,
-    x_end = lead(x, 1), y_end = lead(y, 1)
+    x_end = dplyr::lead(x, 1), y_end = dplyr::lead(y, 1)
   ) %>%
     na.omit()
 
