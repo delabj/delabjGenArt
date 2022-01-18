@@ -3,11 +3,11 @@
 #' @description A regular n-gon is a polygon with equal sided edges and
 #' all angles of corners are equal.
 #'
-#' @param points number of particles to use
+#' @param n_points number of particles to use
 #' @param n_edges How many edges does the shape have
 #' @param r how far from the center of the shape should the edges be drawn
-#' @param c_x x coordinate of origin
-#' @param c_y y coordinate of origin
+#' @param cx x coordinate of origin
+#' @param cy y coordinate of origin
 #'
 #' @export
 ngon_edges <- function(
@@ -22,7 +22,7 @@ ngon_edges <- function(
     x = r * cos(angle) + cx, y = r * sin(angle) + cy,
     x_end = dplyr::lead(x, 1), y_end = dplyr::lead(y, 1)
   ) %>%
-    na.omit()
+    stats::na.omit()
 
     mapply(make_line, 1:n_edges, MoreArgs = list(
     n_points = points_per_edge,
@@ -39,7 +39,7 @@ ngon_edges <- function(
 #' @param y_start starting y
 #' @param x_end ending x
 #' @param y_end ending y
-#' @param ... discarded
+#' @param \dots discarded
 #'
 #' @export
 make_line <- function(

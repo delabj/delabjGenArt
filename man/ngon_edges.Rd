@@ -7,15 +7,15 @@
 ngon_edges(n_points = 10000, n_edges = 4, r = 4, cx = 0, cy = 0)
 }
 \arguments{
+\item{n_points}{number of particles to use}
+
 \item{n_edges}{How many edges does the shape have}
 
 \item{r}{how far from the center of the shape should the edges be drawn}
 
-\item{points}{number of particles to use}
+\item{cx}{x coordinate of origin}
 
-\item{c_x}{x coordinate of origin}
-
-\item{c_y}{y coordinate of origin}
+\item{cy}{y coordinate of origin}
 }
 \description{
 A regular n-gon is a polygon with equal sided edges and

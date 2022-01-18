@@ -15,6 +15,7 @@ Imports:
     EBImage,
     ggplot2,
     magrittr,
+    stats,
     usethis
 Remotes: delabj/delabj
 RoxygenNote: 7.1.2

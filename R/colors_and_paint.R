@@ -27,7 +27,7 @@ get_random_pal <- function(
   seed = NULL){
   seed <- ambient:::random_seed(1, seed)
   set.seed(seed)
-  pal <- pal_list[runif(1, min = 1, max = length(pal_list))]
+  pal <- pal_list[stats::runif(1, min = 1, max = length(pal_list))]
   name <- names(pal)
   usethis::ui_done("Using palette {name}")
   return(pal)
