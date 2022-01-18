@@ -13,6 +13,7 @@ Imports:
     ambient,
     delabj,
     dplyr,
+    EBImage,
     ggplot2,
     magrittr,
     usethis

@@ -9,7 +9,8 @@ paint_palettes <- list(
   skeptic = c("#08090D","#591E2E","#731209","#BF1717","#FBA779"),
   delabj = c("#721121", "#83B692", "#2660A4", "#F19953"),
   b_w = c("black", "grey10", "grey20", "grey30", "grey40", "grey50", "grey60", "grey70", "grey80", "grey90", "white"),
-  ogrwc = c("white", "white", "white", "grey80", "grey80", "grey60", "grey60", "#2660A4", "#83B692","#AC78BA","#2660A4", "#83B692","#AC78BA")
+  ogrwc = c("white", "white", "white", "grey80", "grey80", "grey60", "grey60", "#2660A4", "#83B692","#AC78BA","#2660A4", "#83B692","#AC78BA"),
+  retrus = c("#46588C", "#57F2C6", "#358C74", "#F2CAA7", "#F27052")
 )
 
 #' Select a random palette from a list
