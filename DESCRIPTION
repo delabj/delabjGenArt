@@ -18,5 +18,4 @@ Imports:
     magrittr,
     usethis
 Remotes: delabj/delabj
-
 RoxygenNote: 7.1.2
